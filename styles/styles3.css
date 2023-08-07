@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+
+
+header img {
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+header nav {
+    position: absolute;
+    right: 15px;
+    top: 100%;
+}
+
+nav a {
+    background-color: rgb(20, 19, 19);
+    color: rgb(248, 246, 246);
+    border: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+
+main{
+    min-height: 60vh;
+   
+}
